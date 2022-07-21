@@ -30,10 +30,6 @@
     margin-right: 70px;
     font-size: 20px;
 }
-.nav-text>div:nth-child(3)>a{
-    color: white;
-    text-decoration: none;
-}
 .nav-text>div{
     margin: auto 40px;
     font-weight: bold;
