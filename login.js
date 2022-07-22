@@ -1,7 +1,7 @@
 document.querySelector(".inputmobile").addEventListener("click",mycall)
 function mycall(event){
     event.preventDefault();
-  window.location.href="signup-form-1.html"
+  window.location.href="login-form.html"
 };
 document.querySelector("#gmail").addEventListener("click",hello)
 function hello(event){
