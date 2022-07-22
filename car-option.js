@@ -25,13 +25,6 @@ function mycall(event){
 }
 }
 
-let addtocard=document.getElementById("booknow");
-addtocard.addEventListener("click",tobook);
-let localcard=JSON.stringify(localStorage.getItem("Book-Card")) || [] ;
-
-function tobook(ele){
-
-}
 
 
 
@@ -318,6 +311,9 @@ let  child2=document.createElement("div") ;
   let baccha2new=document.createElement("div");
   baccha2new.innerText="BOOK NOW";
 baccha2new.setAttribute("id","booknow");
+baccha2new.addEventListener("click",function(){
+    tobook(ele);
+});
 baccha2.append(baccha2new)
 child2.append(baccha1,baccha2)
  child0.append(child1,child2);
@@ -326,6 +322,18 @@ child2.append(baccha1,baccha2)
 
 })
 
+}
+
+
+
+
+
+
+function tobook(ele){
+let localcard=JSON.parse(localStorage.getItem("Book-Card")) || [] ;  
+localcard.push(ele);
+localStorage.setItem("Book-Card",JSON.stringify(localcard) )
+window.location.href="book-card.html"
 }
 
 let targetel=document.getElementById("seat-filter-5");

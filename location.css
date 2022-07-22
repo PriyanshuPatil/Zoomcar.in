@@ -1,23 +1,44 @@
-div:nth-child(1)>img{
+div:nth-child(2)>img{
 width: 40px;
 margin-top: 20px;
 }
+
 #forlocation{
     margin-left: 450px;
+    
 }
 #forlocation>input{
    display:block;
     margin-top: 20px;
     margin-right: 50px;
-    padding: 10px 370px 10px 20px;
-    font-size: 18px;
+    padding: 30px 350px 30px 20px;
+    font-size: 22px;
   
 }
+#form{
+    display: grid;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 20px;
+
+
+}
+h2{
+    text-align: center;
+    background-color: rgb(19, 16, 34);
+    padding: 20px 20px;
+    width: 100%;
+    color: white;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 10px; 
+    }
  #continue{
 color: aliceblue;
 background-color: green;
-font-weight: 600;
-font-size: 18px;
+font-weight: 500;
+font-size: 20px;
 padding: 30px 80px;
 width: 25%;
 text-align: center;
