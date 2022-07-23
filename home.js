@@ -89,3 +89,25 @@ function myhost(event){
 }
 
 
+
+let formvalue22=document.getElementById("aboutus") ;
+formvalue22.addEventListener("change",myfilterf)
+
+function myfilterf(){
+    event.preventDefault();
+    let  Selected=document.querySelector("#aboutus").value;
+   if(Selected=="Zoomcar Team"){
+window.location.href="zoomcar-team.html"
+   }
+   if(Selected=="Zoomcar Subscription"){
+  window.location.href="zoomcar-subscription.html"
+  }
+   if(Selected=="Zoomcar Blog"){
+  window.location.href="zoomcar-blog.html"
+    }
+   if(Selected=="Careers @Zoomcar"){
+  window.location.href="zoomcar-careers.html"
+  }
+
+  }
+
