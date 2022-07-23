@@ -38,3 +38,57 @@ font-weight: bold;
     margin: auto; 
     margin-top: 400px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    #parent{
+        width: 100%;
+        margin: auto;
+    }
+    #parent>div:nth-child(1)>img{
+        width: 40px;
+        margin-top: 20px;
+        }
+    #parent>div:nth-child(2){
+        margin-top: 15px;
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+    }
+    
+    #forminput>div>h4{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    #inputotp{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        padding: 10px 70px 10px 20px;
+        font-size: 18px;
+        
+    }
+    #inputotp~p{
+        text-align: center;
+    }
+    #parent>div:nth-child(3){
+        margin-top: 10px;
+        text-align: center;
+        color: rgb(135, 129, 121);
+    }
+    #continue{
+        color: aliceblue;
+        background-color: green;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 20px 80px;
+        width: 25%;
+        text-align: center;
+        border-radius: 10px;
+        margin: auto; 
+        margin-top:200px;
+        margin-left: 20%;
+    }
+    
+
+}
