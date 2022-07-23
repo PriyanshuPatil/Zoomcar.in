@@ -93,7 +93,7 @@ menu.addEventListener("click",mymenu)
 
 function mymenu(){
     event.preventDefault();
-window.location.href="confirm-form.html"
+window.location.href="logout.html"
    }
 
 
