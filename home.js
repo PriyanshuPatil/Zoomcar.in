@@ -19,9 +19,15 @@ else{
 parent.style.display="flex"
     arr.style.margin="-10px -20px 0px 10px";
      parent.append(arr);
+
 document.querySelector("#login").addEventListener("click",mycall)
 function mycall(event){
     event.preventDefault();
     window.location.href="logout.html"
 }
+}
+document.querySelector(".findcar").addEventListener("click",myevent);
+function myevent(event){
+    event.preventDefault();
+    window.location.href="location.html"
 }
