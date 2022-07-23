@@ -38,3 +38,58 @@ font-weight: bold;
     margin: auto; 
     margin-top: 400px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #parent{
+        width: 100%;
+        margin: auto;
+    }
+    #parent>div:nth-child(1)>img{
+        width: 40px;
+        margin-top: 20px;
+
+        }
+    #parent>div:nth-child(2){
+        margin-top: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    }
+    
+    #forminput>div>h4{
+        font-size: 18px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    #inputpassword{
+        margin-top: 20px;
+        margin-right: 50px;
+        padding: 10px 30px 10px 20px;
+        font-size: 18px;
+        margin-left: 70px;
+    }
+    #parent>input~p{
+        text-align: center;
+    }
+    #parent>div:nth-child(3){
+        margin-top: 10px;
+        text-align: center;
+        color: rgb(135, 129, 121);
+    }
+    #continue{
+        color: aliceblue;
+        background-color: green;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 20px 80px;
+        width: 25%;
+        text-align: center;
+        border-radius: 10px;
+        margin: auto; 
+        margin-top: 170px;
+        margin-left: 20%;
+
+    }
+    
+
+}

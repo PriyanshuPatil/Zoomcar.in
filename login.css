@@ -1,14 +1,14 @@
 .forimg{
-    margin: auto;
+
     margin-top: 100px;
-    width: 28%;
+    width: 100%;
     
 }
 .forimg>img{
     width: 100%;
 }
 .form{
-    width: 28%;
+    width: 100%;
     margin: auto;
 }
 .forminput{
@@ -35,4 +35,52 @@ margin-top: 15px;
 .form>p>img{
     width: 20px;
     margin-left: 10px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .forimg{
+        margin: auto;
+        margin-top:0px;
+        width: 100%;
+        
+    }
+    .forimg>img{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        margin: auto;
+    }
+    .form>h2{
+font-size: 20px;
+margin-left: 60px;
+    }
+    .forminput{
+        display: flex;
+        gap: 15px;
+        margin: 20px 30px 20px 60px;
+    }
+    .forminput>img{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    }
+    .inputmobile{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 20px 60px 10px 10px;
+        color: rgb(85, 99, 99);
+    }
+    .form>p{
+        color: green;
+        font-weight: 600;
+        padding: 5px 10px;
+        margin-left: 30px;
+        font-size: 15px;
+    
+    }
+    .form>p>img{
+        width: 20px;
+        margin-left: 10px;
+    }
+
+
 }
