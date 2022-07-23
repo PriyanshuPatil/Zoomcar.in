@@ -6,3 +6,8 @@ function myfunc(event){
     alert("Logout Success-Full")
     window.location.href="home.html"
 }
+document.querySelector("#back").addEventListener("click",mybackcall)
+function mybackcall(){
+    event.preventDefault();
+    window.location.href="home.html"
+}
