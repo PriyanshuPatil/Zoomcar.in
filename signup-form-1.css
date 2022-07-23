@@ -2,10 +2,8 @@
     width: 40%;
     margin: auto;
 }
-#parent>div:nth-child(1)>img{
-    width: 40px;
-    margin-top: 20px;
-    }
+
+
 #parent>div:nth-child(2){
     margin-top: 15px;
 font-size: 19px;
