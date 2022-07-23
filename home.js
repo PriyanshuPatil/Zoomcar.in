@@ -73,4 +73,19 @@ function myoffers3(event){
     window.location.href="offers3.html"
 }
 
+document.querySelector("#zms").addEventListener("click",myzms);
+function myzms(event){
+    event.preventDefault();
+    alert("We are working on this feature")
+}
+
+
+
+
+document.querySelector("#host").addEventListener("click",myhost);
+function myhost(event){
+    event.preventDefault();
+    alert("We are working on this feature")
+}
+
 
