@@ -48,3 +48,67 @@ padding: -10;
     margin: auto; 
     margin-top: 400px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #parent{
+        width: 100% ;
+    }
+    
+    #parent>div:nth-child(1)>img{
+        width: 30px;
+        margin-top: 20px;
+        margin-left: 0px;
+        }
+    #parent>div:nth-child(2){
+        margin-top: 105px;
+    font-size: 20px;
+    width: 300px;
+    font-weight: bold;
+    margin-left: 20px;
+    }
+    #forminput{
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #inputmobile{
+        padding-top: -20px;
+        
+    }
+    #forminput>div{
+        display: flex;
+        border: 2px solid green;
+        gap: 25px;
+        padding:10px 20px;
+    }
+    #forminput>input{
+        padding: 0px 10px 0px 10px;
+        font-size: 16px;
+    }
+    #forminput>div>img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    padding: -10;
+    }
+    #forminput>div>h4{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    #continue{
+        color: aliceblue;
+        background-color: green;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 20px 80px;
+        width: 25%;
+        text-align: center;
+        border-radius: 10px;
+        margin: auto; 
+        margin-top: 200px;
+    }
+    
+
+}
