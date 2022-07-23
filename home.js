@@ -100,13 +100,13 @@ function myfilterf(){
 window.location.href="zoomcar-team.html"
    }
    if(Selected=="Zoomcar Subscription"){
-  window.location.href="zoomcar-subscription.html"
+  alert("Plz Select Zoomcar Team")
   }
    if(Selected=="Zoomcar Blog"){
-  window.location.href="zoomcar-blog.html"
+    window.location.href="zoomcar-team.html"
     }
    if(Selected=="Careers @Zoomcar"){
-  window.location.href="zoomcar-careers.html"
+    window.location.href="zoomcar-team.html"
   }
 
   }
