@@ -88,6 +88,13 @@ function myhost(event){
     alert("We are working on this feature")
 }
 
+let menu=document.getElementById("menuhu") ;
+menu.addEventListener("click",mymenu)
+
+function mymenu(){
+    event.preventDefault();
+window.location.href="confirm-form.html"
+   }
 
 
 let formvalue22=document.getElementById("aboutus") ;
