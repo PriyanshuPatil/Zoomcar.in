@@ -8,8 +8,8 @@ Zoomcar is an indian self-drive car rental company, headquarter in Banglore, Ind
 <img src="https://i.postimg.cc/c1bqsP1G/Screenshot-1006.png" alt="img1">
 <img src="https://i.postimg.cc/LXJcfVvb/Screenshot-1007.png" alt="img2">
 <img src="https://i.postimg.cc/7P7ckhR0/Screenshot-1008.png" alt="img3">
-<img src="https://i.postimg.cc/7P7ckhR0/Screenshot-1009.png" alt="img4">
-<img src="https://i.postimg.cc/7P7ckhR0/Screenshot-10010.png" alt="img5">
+<img src="https://i.postimg.cc/C5Nsx3kT/Screenshot-1009.png" alt="img4">
+<img src="https://i.postimg.cc/d3qGp5XW/Screenshot-1010.png" alt="img5">
 
 
 ## Tech Stacks
