@@ -12,18 +12,17 @@ Zoomcar is an indian self-drive car rental company, headquarter in Banglore, Ind
 
 
 ## Tech Stacks
-- React
+- Html
 - JavaScript
-- React icons
-- ChakraUI
+- Css
 
 ## Features
 - Landing Page
 - SignUp functionality with multi step form
-- Products Page
-- Routing with private routes
-- Admin panel
-- Login functionality
+- Car Selection Page
+- Checkout Page
+- Filter Functionality
+- Offers Page
 
 ## Deployed Link
-<a href="proflow.netlify.app">proflow.netlify.app</a>
+<a href="https://incomparable-marzipan-d38d20.netlify.app/home.html">zoomcar.netlify.app</a>
