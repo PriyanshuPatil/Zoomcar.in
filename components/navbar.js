@@ -1,5 +1,5 @@
-function Navbar(){
-return `
+function Navbar() {
+  return `
  <div class="nav">
     <div class="nav-logo">
      <div class="nav-menu">
@@ -13,10 +13,7 @@ return `
     </div>
 
 </div> 
-`
+`;
 }
 
-
-
-
-export default Navbar  ;
+export default Navbar;

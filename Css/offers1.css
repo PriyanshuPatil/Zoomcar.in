@@ -1,97 +1,92 @@
-body>div:nth-child(1)>img{
-    width: 70px;
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-bottom: 15px;
-    }
-body>div:nth-child(1){
-    background-color: rgb(50, 83, 84);
+body > div:nth-child(1) > img {
+  width: 70px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 15px;
 }
-body>div:nth-child(1)>span{
-margin-top: 0px;
-margin-left: 600px;
-font-size: xx-large;
-color: white;
+body > div:nth-child(1) {
+  background-color: rgb(50, 83, 84);
+}
+body > div:nth-child(1) > span {
+  margin-top: 0px;
+  margin-left: 600px;
+  font-size: xx-large;
+  color: white;
+}
+#parent {
+  width: 30%;
+  margin: auto;
+}
+#parent > h2:nth-child(1) {
+  text-align: center;
+}
 
+#parent > img {
+  margin-top: 20px;
+  width: 100%;
 }
-#parent{
-    width: 30%;
-    margin: auto;
+#para1 {
+  margin-top: -10px;
 }
-#parent>h2:nth-child(1){
-    text-align: center;
+#para1 > p {
+  line-height: 5px;
 }
-
-#parent>img{
-    margin-top: 20px;
-    width: 100%;
+#para2 {
+  margin-top: -10px;
 }
-#para1{
-    margin-top: -10px;
+#para2 > p {
+  line-height: 5px;
 }
-#para1>p{
-    line-height: 5px;
+#para3 {
+  margin-top: -10px;
 }
-#para2{
-    margin-top: -10px;
-}
-#para2>p{
-    line-height: 5px;
-}
-#para3{
-    margin-top: -10px;
-}
-#para3>p{
-    line-height: 5px;
+#para3 > p {
+  line-height: 5px;
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    body>div:nth-child(1)>img{
-        width: 30px;
-        margin-top: 5px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        }
-    body>div:nth-child(1){
-        background-color: rgb(50, 83, 84);
-    }
-    body>div:nth-child(1)>span{
+  body > div:nth-child(1) > img {
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  body > div:nth-child(1) {
+    background-color: rgb(50, 83, 84);
+  }
+  body > div:nth-child(1) > span {
     margin-left: 60px;
-    font-size:20px;
+    font-size: 20px;
     color: white;
-    
-    }
-    #parent{
-        width: 100%;
-        margin: auto;
-        margin-top: -10px;
-    }
-    #parent>h2:nth-child(1){
-        text-align: center;
-    }
-    
-    #parent>img{
-        margin-top: 20px;
-        width: 100%;
-    }
-    #para1{
-        margin-top: -10px;
-    }
-    #para1>p{
-        line-height: 15px;
-    }
-    #para2{
-        margin-top: -10px;
-    }
-    #para2>p{
-        line-height: 15px;
-    }
-    #para3{
-        margin-top: -10px;
-    }
-    #para3>p{
-        line-height: 15px;
-    }
-    
+  }
+  #parent {
+    width: 100%;
+    margin: auto;
+    margin-top: -10px;
+  }
+  #parent > h2:nth-child(1) {
+    text-align: center;
+  }
 
+  #parent > img {
+    margin-top: 20px;
+    width: 100%;
+  }
+  #para1 {
+    margin-top: -10px;
+  }
+  #para1 > p {
+    line-height: 15px;
+  }
+  #para2 {
+    margin-top: -10px;
+  }
+  #para2 > p {
+    line-height: 15px;
+  }
+  #para3 {
+    margin-top: -10px;
+  }
+  #para3 > p {
+    line-height: 15px;
+  }
 }
-

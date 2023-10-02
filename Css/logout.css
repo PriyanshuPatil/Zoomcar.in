@@ -1,84 +1,83 @@
-#parent{
-    width: 40%;
-    margin: auto;
+#parent {
+  width: 40%;
+  margin: auto;
 }
-#parent>div:nth-child(1)>img{
-    width: 40px;
-    margin-top: 20px;
-    }
-#parent>div:nth-child(2){
-    margin-top: 200px;
-font-size: 25px;
-font-weight: bold;
-margin-left: 200px;
+#parent > div:nth-child(1) > img {
+  width: 40px;
+  margin-top: 20px;
+}
+#parent > div:nth-child(2) {
+  margin-top: 200px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 200px;
+}
+#parent > div:nth-child(3) {
+  margin-left: 250px;
+}
 
+#forminput > div > h4 {
+  font-size: 18px;
+  margin-top: 30px;
 }
-#parent>div:nth-child(3){
-    margin-left: 250px;
+#inputotp {
+  margin-top: 20px;
+  margin-right: 50px;
+  padding: 10px 370px 10px 20px;
+  font-size: 18px;
 }
-
-#forminput>div>h4{
-    font-size: 18px;
-    margin-top: 30px;
+#parent > div:nth-child(3) {
+  margin-top: 10px;
+  color: rgb(135, 129, 121);
 }
-#inputotp{
-    margin-top: 20px;
-    margin-right: 50px;
-    padding: 10px 370px 10px 20px;
-    font-size: 18px;
-}
-#parent>div:nth-child(3){
-    margin-top: 10px;
-    color: rgb(135, 129, 121);
-}
-#continue{
-    color: aliceblue;
-    background-color: green;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 20px 80px;
-    width: 25%;
-    text-align: center;
-    border-radius: 10px;
-    margin: auto; 
-    margin-top: 20px;
+#continue {
+  color: aliceblue;
+  background-color: green;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px 80px;
+  width: 25%;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-#parent{
+  #parent {
     width: 100%;
     margin: auto;
-}
-#parent>div:nth-child(1)>img{
+  }
+  #parent > div:nth-child(1) > img {
     width: 40px;
     margin-top: 20px;
-    }
-#parent>div:nth-child(2){
-text-align: center;
-margin-top: 100px;
-font-size: 25px;
-font-weight: bold;
-margin-left: 0px;
-}
-#parent>div:nth-child(3){
-margin-left: 160px;
-}
+  }
+  #parent > div:nth-child(2) {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 0px;
+  }
+  #parent > div:nth-child(3) {
+    margin-left: 160px;
+  }
 
-#forminput>div>h4{
+  #forminput > div > h4 {
     font-size: 18px;
     margin-top: 100px;
-}
-#inputotp{
+  }
+  #inputotp {
     margin-top: 20px;
     margin-right: 50px;
     padding: 10px 370px 10px 20px;
     font-size: 18px;
-}
-#parent>div:nth-child(3){
+  }
+  #parent > div:nth-child(3) {
     margin-top: 10px;
     color: rgb(135, 129, 121);
-}
-#continue{
+  }
+  #continue {
     color: aliceblue;
     background-color: green;
     font-weight: 600;
@@ -87,7 +86,7 @@ margin-left: 160px;
     width: 25%;
     text-align: center;
     border-radius: 10px;
-    margin: auto; 
+    margin: auto;
     margin-top: 80px;
-}
+  }
 }
