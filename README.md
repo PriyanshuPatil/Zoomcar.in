@@ -28,4 +28,4 @@ Zoomcar is an indian self-drive car rental company, headquarter in Banglore, Ind
 
 ## Deployed Link
 
-<a href="https://incomparable-marzipan-d38d20.netlify.app/home.html">zoomcar.netlify.app</a>
+<a href="https://zoomcar2327.netlify.app/l">zoomcar.netlify.app</a>
