@@ -1,15 +1,43 @@
-document.querySelector(".inputmobile").addEventListener("click", mycall);
-function mycall(event) {
-  event.preventDefault();
-  window.location.href = "login-form.html";
+let user_data = JSON.parse(localStorage.getItem('user_data')) || [];
+
+// Login section
+
+login_btn = document.getElementById('login_btn');
+
+login_btn.addEventListener('click', loginFn);
+
+function loginFn(){
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+
+    verifyUser(email, password);
+
+    
 }
-document.querySelector("#gmail").addEventListener("click", hello);
-function hello(event) {
-  event.preventDefault();
-  alert("We are working on it feature, Can you plz Login with mobile number");
+
+
+function verifyUser(email, password){
+    let login_data = user_data.filter((e)=>{
+        return e.email == email && e.password == password;
+    });
+
+    if(login_data.length != 0){
+        alert("login Successfully!");
+        window.location.href = "./car-option.html";
+        localStorage.setItem('login_data', JSON.stringify(login_data));
+
+    }
+    else{
+        alert("Invalid username or password!");
+    }
+    
 }
-document.querySelector("#facebook").addEventListener("click", hello);
-function hello(event) {
-  event.preventDefault();
-  alert("We are working on it feature, Can you plz Login with mobile number");
-}
+
+
+
+//create account section
+
+let create_account = document.getElementById('create_div');
+create_account.addEventListener('click', ()=>{
+    window.location.href = 'signup.html';
+})

@@ -1,9 +1,3 @@
-document.querySelector("#back").addEventListener("click", mybackcall);
-function mybackcall() {
-  event.preventDefault();
-  window.location.href = "home.html";
-}
-
 let formvalue = document.getElementById("form");
 formvalue.addEventListener("change", myf);
 

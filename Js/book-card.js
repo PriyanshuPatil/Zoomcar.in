@@ -60,17 +60,13 @@ function display(el) {
   });
 }
 
-document.querySelector("#back").addEventListener("click", mybackcall);
-function mybackcall() {
-  event.preventDefault();
-  window.location.href = "car-option.html";
-}
+
 let totalis = 0;
 for (let i = 0; i < localcard.length; i++) {
   totalis = totalis + localcard[i].Price;
 }
 let total = document.getElementById("total");
-total.innerText = totalis;
+total.innerText = totalis ;
 
 document.getElementById("apply").addEventListener("click", myapply);
 function myapply() {

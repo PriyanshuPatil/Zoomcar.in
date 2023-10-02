@@ -84,7 +84,7 @@ body{
     background-color: #F9F9FA;
     font-family: Arial, Helvetica, sans-serif;
 }
-#login_container{
+#signup_container{
     margin: 30px auto 100px auto;
 
 }
@@ -127,7 +127,7 @@ body{
     padding: 20px;
     font-size: 1rem;
     color: white;
-    background-color: #80BB35;
+    background-color: #5263c4;
     border: none;
     border-radius: 5px;
     cursor: pointer;

@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAR OPTIONS</title>
-    <link rel="stylesheet" href="./Css/car-option.css">
+    <link rel="stylesheet" href="./css/car-option.css">
 </head>
 <body>
-    <div class="nav">
+    <div id="nav">
          </div>
     </div>
  <div id="cars">
@@ -42,11 +42,36 @@
     </div>
  </div>
 </body>
-<script src="./Js/car-option.js"></script>
+<script src="./js/car-option.js"></script>
 </html>
 
 <script type="module">
-    import Navbar from './components/navbar.js' ;
-    let navbar_container=document.getElementById("nav") ;
-    navbar_container.innerHTML=Navbar() ;
-   </script>
+  import Navbar from './components/navbar.js' ;
+  let navbar_container=document.getElementById("nav") ;
+  navbar_container.innerHTML=Navbar() ;
+  let userdata = JSON.parse(localStorage.getItem("login_data")) || [];
+
+if (userdata.length == 0) {
+document.querySelector("#login").addEventListener("click", mycall);
+function mycall(event) {
+  event.preventDefault();
+  window.location.href = "login.html";
+}
+} else {
+let name = userdata[userdata.length - 1].email;
+document.getElementById("login").innerText = name;
+// let arr = document.createElement("img");
+// arr.setAttribute("src", "https://www.zoomcar.com/img/icons/icons_user.png");
+let parent = document.getElementById("login");
+// arr.style.margin = "-10px -20px 0px 10px";
+let spain = document.getElementById("spain");
+parent.style.display = "flex";
+// parent.append(arr);
+
+document.querySelector("#login").addEventListener("click", mycall);
+function mycall(event) {
+  event.preventDefault();
+  window.location.href = "logout.html";
+}
+}
+</script>

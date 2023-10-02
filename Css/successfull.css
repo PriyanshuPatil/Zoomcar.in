@@ -16,7 +16,7 @@ body > div > div > h1 {
   background-color: rgb(19, 8, 8);
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width:1080px) {
   body > div {
     margin: auto;
   }

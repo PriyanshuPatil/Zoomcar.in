@@ -1,11 +1,9 @@
 body > div:nth-child(1) > img {
   width: 70px;
-  margin-top: 15px;
-  margin-left: 20px;
   margin-bottom: 15px;
 }
 body > div:nth-child(1) {
-  background-color: rgb(50, 83, 84);
+  background-color: rgb(255, 255, 255);
 }
 body > div:nth-child(1) > span {
   margin-top: 0px;
@@ -43,15 +41,13 @@ body > div:nth-child(1) > span {
 #para3 > p {
   line-height: 5px;
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 1080px) {
   body > div:nth-child(1) > img {
-    width: 30px;
-    margin-top: 5px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    width: 70px;
+    margin-bottom: 15px;
   }
   body > div:nth-child(1) {
-    background-color: rgb(50, 83, 84);
+    background-color: rgb(235, 242, 242);
   }
   body > div:nth-child(1) > span {
     margin-left: 60px;

@@ -3,7 +3,7 @@
   margin-top: 40px;
   width: 70%;
   display: grid;
-  margin-top: -60px;
+  overflow-x: hidden;
   grid-template-columns: repeat(1, 1fr);
 }
 #carone {
@@ -114,7 +114,7 @@
   border: 1px solid black;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 1080px) {
   #cars-data {
     margin: auto;
     width: 100%;
@@ -195,7 +195,6 @@
     margin-top: 20px;
   }
   #promo {
-    width: 100%;
     font-size: 20px;
     margin-top: 30px;
   }
@@ -204,21 +203,34 @@
     font-size: 25px;
     font-weight: 500;
     margin-top: 70px;
-    margin-left: -80px;
-    gap: 30px;
+    gap: 0px;
+    width: 70%;
+    align-items: center;
+    gap:10px
   }
 
   #promo > div > input {
-    padding: 20px 10px;
-    margin-left: -50px;
-    font-size: 19px;
+    padding: 5px 5px;
+    font-size: 13px;
+    width: 98%;
   }
   #apply {
-    padding: 20px;
-    margin-left: 0px;
+    padding: 10px;
     color: white;
     font-weight: 400;
     background-color: rgb(33, 6, 6);
     border: 1px solid black;
+  }
+  #continue {
+    color: aliceblue;
+    background-color: green;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
   }
 }

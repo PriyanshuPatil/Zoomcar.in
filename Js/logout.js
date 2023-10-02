@@ -1,8 +1,8 @@
 document.getElementById("continue").addEventListener("click", myfunc);
 function myfunc(event) {
   event.preventDefault();
-  localStorage.clear("User-data");
-  localStorage.clear("login-data");
+  localStorage.clear("user_data");
+  localStorage.clear("login_data");
   alert("Logout Success-Full");
   window.location.href = "home.html";
 }

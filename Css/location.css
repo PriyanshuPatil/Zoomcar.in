@@ -43,7 +43,7 @@ h2 {
   margin-top: 50px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 1084px) {
   div:nth-child(2) > img {
     width: 40px;
     margin-top: 20px;
