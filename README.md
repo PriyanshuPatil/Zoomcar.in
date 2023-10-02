@@ -6,16 +6,20 @@ This project is a complete clone UI of the Zoomcar website. Zoomcar, is an India
 
 Zoomcar is an indian self-drive car rental company, headquarter in Banglore, India. no more worries about mileage, fuel costs , insurance, and car breakdowns because the self-drive cars from Zoomcar offer the customers more control , privacy,and freedom Book a self-drive car in any city you visit with the app on your phone and feel at home whereever you go.
 
-<img src="https://i.postimg.cc/c1bqsP1G/Screenshot-1006.png" alt="img1">
-<img src="https://i.postimg.cc/7P7ckhR0/Screenshot-1008.png" alt="img3">
-<img src="https://i.postimg.cc/C5Nsx3kT/Screenshot-1009.png" alt="img4">
-<img src="https://i.postimg.cc/d3qGp5XW/Screenshot-1010.png" alt="img5">
+<img src="https://i.postimg.cc/Fzwdb968/Screenshot-1097.png" alt="img1">
+<img src="https://i.postimg.cc/8Cw7Kd3h/Screenshot-1098.png" alt="img2">
+<img src="https://i.postimg.cc/C5Nsx3kT/Screenshot-1099.png" alt="img3">
+<img src="https://i.postimg.cc/d3qGp5XW/Screenshot-1100.png" alt="img4">
+<img src="https://i.postimg.cc/7P7ckhR0/Screenshot-1101.png" alt="img5">
+<img src="https://i.postimg.cc/C5Nsx3kT/Screenshot-1102.png" alt="img6">
+<img src="https://i.postimg.cc/d3qGp5XW/Screenshot-1103.png" alt="img7">
 
 ## Tech Stacks
 
 - Html
 - JavaScript
 - Css
+- dom
 
 ## Features
 
